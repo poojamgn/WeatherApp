@@ -73,6 +73,13 @@
     margin: auto;
     border-radius: 10px;
 }
+
+.mainbox h2{
+    text-align: center;
+     justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
 .mainbox .city{
     text-align: center;
     font-size: 3rem;
