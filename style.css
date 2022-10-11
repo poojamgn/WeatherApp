@@ -82,28 +82,25 @@
 .mainbox .city{
     text-align: center;
     font-size: 3rem;
-    color: rgb(82, 82, 82);
-    padding-top: 20px;
+    color: rgb(82, 82, 82);   
 }
 .mainbox .temp{
     text-align: center;
     font-size: 10rem;
-    padding-top: 20px;
     font-weight: 700;
 }
 .mainbox .date{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 8px;
     opacity: 0.7;
     font-size: 1.2rem;
 }
 .mainbox .weather{
     text-align: center;
-    padding-top: 20px;
     font-size: 1.5rem;
 }
 .mainbox .hiLow{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 8px;
     font-size: 1.5rem;
 }
