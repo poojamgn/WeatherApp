@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
 </head>
+
 <body>
     <div class="main"></div>
     <div class="header">
         <p>Weather App</p>
         <div class="search">
             <p>Search City:-</p>
-            <i class="fa fa-search" aria-hidden="true"></i>
-            <input type="search" name="" id="" class="Search-box" placeholder="Please enter city name*" required="required" data-validation-required-message="Please enter city name.">
-              
+            <input type="search" name="" id="" class="Search-box" placeholder="Please enter city name*"
+                required="required" data-validation-required-message="Please enter city name.">
+            <button class="search-icon" onclick="showResult()">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
         </div>
     </div>
     <div class="section">
         <p>Current Weather</p>
         <p>Current Weather</p>
     </div>
-
     <div class="mainbox">
-        <h2>Weather details will appear here once you search for a location</h2> 
+        <h2>Weather details will appear here once you search for a location</h2>
         <div class="city"></div>
         <div class="date"></div>
         <div class="temp"></div>
@@ -32,5 +37,7 @@
         <div class="hiLow"></div>
     </div>
     <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/a49bb1045a.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
