@@ -55,7 +55,7 @@
 }
 
 .header .search input {
-    width: 160px;
+    width: 185px;
     height: 30px;
     outline: none;
     padding-left: 10px;
@@ -74,11 +74,11 @@
 }
 
 .search-icon {
-    margin-left: -26px;
+    margin-left: -26.1px;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 6.3px;
+    padding: 6.2px;
     background-color: #e89df9d6;
 }
 
